@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mmesoma Onuegbu | Frontend Engineer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article class="profile-card" data-testid="test-profile-card">
+        <div class="card-body">
+
+            <aside class="side-panel">
+                <figure class="image-container">
+                    <img src="/profile.jpeg" alt="Mmesoma Onuegbu Favour" data-testid="test-user-avatar">
+                    
+                </figure>
+
+                <h2 data-testid="test-user-name">Mmesoma Onuegbu Favour</h2>
+                <p class="tagline">Frontend Developer & UI Specialist</p>
+
+                <div class="location-box">
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <span>Lagos, Nigeria</span>
+                </div>
+
+                <div class="time-widget">
+                    <div class="time-block">
+                        <span class="label">CURRENT UTC (MS)</span>
+                        <span class="value time-data" data-testid="test-user-time">0000000000000</span>
+                    </div>
+                    <div class="time-block">
+                        <span class="label">CURRENT DAY</span>
+                        <span class="value day-data" data-testid="CurrentDay">---</span>
+                    </div>
+                </div>
+                <div class="mascot-container">
+                    <div class="doll-wrapper">
+                        <div class="doll-character"><span class="avatar-icon">👩‍💻</span></div>
+                        <div class="doll-shadow"></div>
+                    </div>
+                </div>
+                <div class="action-row">
+                    <nav class="social-group" data-testid="test-user-social-links">
+                        <a href="https://github.com/Mmesomaonuegbu00" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-github">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-linkedin">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                        <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer"
+                            data-testid="test-user-social-twitter">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </nav>
+
+                </div>
+            </aside>
+
+            <div class="main-content">
+                <section class="section">
+                    <h3>Executive Summary</h3>
+                    <p class="bio-text" data-testid="test-user-bio">
+                        A results-driven Frontend Developer dedicated to architecting high-performance, accessible, and
+                        visually captivating web applications. I bridge the gap between complex backend logic and
+                        elegant user interfaces, ensuring seamless digital experiences.
+                    </p>
+                </section>
+
+                <section class="section">
+                    <h3>Core Tech Stack</h3>
+                    <div class="skill-cloud">
+                        <span>React.js</span>
+                        <span>TypeScript</span>
+                        <span>Modern CSS/SASS</span>
+                        <span>API Integration</span>
+                        <span>UI/UX Design</span>
+                        <span>Responsive Architecture</span>
+                    </div>
+                </section>
+
+                <div class="lists-container">
+                    <section class="section">
+                        <h3>Hobbies</h3>
+                        <ul class="skill-cloud" data-testid="test-user-hobbies">
+                            <li>Sleeping</li>
+                            <li>Movies</li>
+                            <li>Coding</li>
+                        </ul>
+                    </section>
+
+                    <section class="section">
+                        <h3>Dislikes</h3>
+                        <ul class="skill-cloud" data-testid="test-user-dislikes">
+                            <li>Stress</li>
+                            <li>Going Out</li>
+                            <li>Slow Network</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <footer class="contact-footer">
+                    <div class="contact-links">
+                        <a href="mailto:mmesomaonuegbu9@gmail.com" class="contact-item" data-testid="emailAddress">
+                            <i class="bi bi-envelope-paper"></i> mmesomaonuegbu9@gmail.com
+                        </a>
+                    </div>
+
+                    <button class="hire-btn">Download CV</button>
+                </footer>
+            </div>
+
+
+        </div>
+
+        </div>
+    </article>
+    <script src="script.js"></script>
+</body>
+
+</html>
