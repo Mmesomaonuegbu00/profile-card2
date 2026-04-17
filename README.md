@@ -49,44 +49,43 @@ profile-card/
 git clone https://github.com/Mmesomaonuegbu00/profile-card2.git
 
 ````
-Run the project:
-Open index.html in your browser, OR
-Use a live server
+## Run the project
 
-````
+- Open `index.html` in your browser, OR  
+- Use a live server (recommended)
 
-````
-Functionality
+---
 
-Time Display
+## Functionality
+
+### Time Display
 Displays the current UTC time in milliseconds using JavaScript.
 
-Current Day
+### Current Day
 Shows the current day of the week dynamically.
 
-CV Download
-The "Download CV" button downloads the cv.pdf file.
+### CV Download
+The "Download CV" button downloads the `cv.pdf` file.
 
-````
+---
 
-````
+## Testing Notes
 
-Testing Notes
-
-The project includes data-testid attributes for testing.
+The project includes `data-testid` attributes for testing.
 
 Examples:
+- test-profile-card  
+- test-user-name  
+- test-user-avatar  
+- test-user-time  
+- test-user-social-github  
 
-test-profile-card
-test-user-name
-test-user-avatar
-test-user-time
-test-user-social-github
+These can be used with testing tools like Jest or Testing Library.
 
-````
-````
-Notes
-Ensure cv.pdf is in the root directory
-Replace placeholder social links with your actual profiles
-No backend is required
-````
+---
+
+## Notes
+
+- Ensure `cv.pdf` is in the root directory  
+- Replace placeholder social links with your actual profiles  
+- No backend is required  
